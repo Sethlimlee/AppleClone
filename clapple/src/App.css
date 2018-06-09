@@ -9,7 +9,7 @@
  padding: 0 22px;
   background-color: #333;
   position: fixed;
-  opacity: .99;
+  opacity: .999;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 52%;
+  width: 1000px;
 }
 
 .navButton {
@@ -27,4 +27,55 @@
   font-size: 14px;
   font-weight: 400;
   font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.landingX {
+  height:750px;
+  width:100%;
+  box-sizing: border-box;
+  padding-top: 8%;
+}
+
+.iPhoneX {
+  font-size: 52px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.sayHello {
+  font-size: 25px;
+}
+
+.iPhoneXPic {
+  padding-top: 90px;
+}
+
+.red {
+  box-sizing: border-box;
+  width:100%;
+  background-color: #B00E23;
+  color: white;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.special {
+  height:35px;
+  width: 145px;
+  font-weight: 600;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.learn {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 20px;
 }
