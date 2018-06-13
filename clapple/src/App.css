@@ -192,6 +192,10 @@
   align-items: center;
 }
 
+.footer {
+  background-color: #F2F2F2;
+}
+
 .footerbox {
   height: 500px;
   width: 50%;
@@ -211,12 +215,17 @@
 }
 
 .footerLinks {
+  display: flex;
+  padding-top: 40px;
+}
+
+.footerLinkButtons {
   font-size: 12px;
   display: flex;
   flex-direction: column;
   text-align: left;
-  padding-top: 40px;
   color: #747474;
+  margin-right: 100px;
 }
 
 .bold {
