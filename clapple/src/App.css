@@ -111,21 +111,31 @@
 
 .boxOne {
   box-sizing: border-box;
-  height: 500px;
+  height: 580px;
   width: 50%;
   background-color: limegreen;
   border: 6px solid white;
   border-top-width: 12px;
   border-left-width: 12px;
   display:flex;
-  font-size: 100px;
-  justify-content: center;
+  flex-direction: column;
+  font-size: 40px;
+  font-weight: 600;
+  justify-content: top;
   align-items: center;
+  padding-top: 40px;
+  background-image: url("https://www.apple.com/v/home/dq/images/promos/ios_large.jpg");
+  background-position: center;
+}
+
+.more {
+  font-weight: 200;
+  font-size: 20px;
 }
 
 .boxTwo {
   box-sizing: border-box;
-  height: 500px;
+  height: 580px;
   width: 50%;
   background-color: limegreen;
   border: 6px solid white;
@@ -139,7 +149,7 @@
 
 .boxThree {
   box-sizing: border-box;
-  height: 500px;
+  height: 580px;
   width: 50%;
   background-color: limegreen;
   border: 6px solid white;
@@ -152,7 +162,7 @@
 
 .boxFour {
   box-sizing: border-box;
-  height: 500px;
+  height: 580px;
   width: 50%;
   background-color: limegreen;
   border: 6px solid white;
@@ -166,7 +176,7 @@
 
 .boxFive {
   box-sizing: border-box;
-  height: 500px;
+  height: 580px;
   width: 50%;
   background-color: limegreen;
   border: 6px solid white;
@@ -180,7 +190,7 @@
 
 .boxSix {
   box-sizing: border-box;
-  height: 500px;
+  height: 580px;
   width: 50%;
   background-color: limegreen;
   border: 6px solid white;

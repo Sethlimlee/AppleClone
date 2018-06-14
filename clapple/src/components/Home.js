@@ -63,7 +63,12 @@ class Home extends Component {
         </div>
         <div className="wrapper">
           <div className="boxOne">
-            <div />
+          <div>
+            iOS 12 
+          </div>
+          <div className='more'>
+            More power to you.
+          </div>
           </div>
           <div className="boxTwo">
             <div />
