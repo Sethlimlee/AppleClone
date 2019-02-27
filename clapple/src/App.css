@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+
 .App {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 .Nav {
@@ -25,83 +29,58 @@
 .navButton {
   color: white;
   font-size: 14px;
-  font-weight: 400;
-  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
-    "Helvetica", "Arial", sans-serif;
 }
 
-.landingX {
-  height: 750px;
+.container1 {
+  height: 295px;
   width: 100%;
   box-sizing: border-box;
-  padding-top: 8%;
+  padding-top: 44px;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
-.iPhoneX {
-  font-size: 52px;
+.container1Info {
+  width: 50%;
+ 
+}
+
+.iPhoneXLeasing {
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
   font-weight: 600;
-  padding-bottom: 10px;
 }
 
-.sayHello {
-  font-size: 25px;
+.R {
+  height: 37px;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
 }
 
-.iPhoneXPic {
-  padding-top: 90px;
-}
-
-.red {
-  box-sizing: border-box;
+.container2 {
+  height: 700px;
   width: 100%;
-  background-color: #b00e23;
-  color: white;
-  padding-top: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.special {
-  height: 35px;
-  width: 145px;
-  font-weight: 600;
-  border: 1px solid white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 4px;
-  margin-bottom: 20px;
-}
-
-.learn {
-  margin-top: 10px;
-  margin-bottom: 30px;
-  font-size: 20px;
-}
-
-.gray {
   box-sizing: border-box;
+  background-color: #fafafa
+}
+
+.container3 {
+  height: 700px;
   width: 100%;
-  background-color: #f5f5f5;
-  color: black;
-  padding-top: 125px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  box-sizing: border-box;
+  background-color: #fafafa
 }
 
-.iPadLanding {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.pencil {
-  margin-top: 25px;
+.container4 {
+  height: 700px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fafafa
 }
 
 .wrapper {
@@ -109,7 +88,7 @@
   flex-wrap: wrap;
 }
 
-.boxOne {
+.box1 {
   box-sizing: border-box;
   height: 580px;
   width: 50%;
@@ -124,16 +103,11 @@
   justify-content: top;
   align-items: center;
   padding-top: 40px;
-  background-image: url("https://www.apple.com/v/home/dq/images/promos/ios_large.jpg");
+  background-image: url("");
   background-position: center;
 }
 
-.more {
-  font-weight: 200;
-  font-size: 20px;
-}
-
-.boxTwo {
+.box2 {
   box-sizing: border-box;
   height: 580px;
   width: 50%;
@@ -147,7 +121,7 @@
   align-items: center;
 }
 
-.boxThree {
+.box3 {
   box-sizing: border-box;
   height: 580px;
   width: 50%;
@@ -160,7 +134,7 @@
   align-items: center;
 }
 
-.boxFour {
+.box4 {
   box-sizing: border-box;
   height: 580px;
   width: 50%;
@@ -174,7 +148,7 @@
 
 }
 
-.boxFive {
+.box5 {
   box-sizing: border-box;
   height: 580px;
   width: 50%;
@@ -188,7 +162,7 @@
   align-items: center;
 }
 
-.boxSix {
+.box6 {
   box-sizing: border-box;
   height: 580px;
   width: 50%;

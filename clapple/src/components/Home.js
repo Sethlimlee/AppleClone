@@ -7,84 +7,29 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <div className="landingX">
-          <div className="iPhoneX">iPhone X</div>
-          <div className="sayHello">Say hello to the future.</div>
-          <div className="iPhoneXPic">
-            <img
-              src="https://www.apple.com/v/home/dq/images/heroes/iphone-x/iphone_x_largetall.jpg"
-              alt="Apple Logo"
-              height="207"
-              width="981"
-              align="middle"
-            />
-          </div>
-        </div>
-        <div className="red">
-          <div className="special">
-            <div>Special Edition</div>
-          </div>
-          <div>
-            <img
-              src="https://www.apple.com/v/home/dq/images/logos/product_red_logo_alt_large.png"
-              alt="Apple Logo"
-              height="78"
-              width="518"
-              align="middle"
-            />
-            <div className="learn">Learn about (RED) ® > Buy ></div>
+        <div className="container1">
+          <div className="container1Info">
+            <div className="iPhoneXLeasing">iPhone X<div className = 'R'>R {'\xa0'}</div> from $18.99/mo. or $449.*</div>
             <div>
-              <img
-                src="https://www.apple.com/v/home/dq/images/heroes/product-red/hero_largetall.jpg"
-                alt="Apple Logo"
-                height="441"
-                width="460"
-                align="middle"
-              />
+              Two great ways to buy. Just trade in your current iPhone online or
+              at an Apple Store.*
+            </div>
+            <div>
+              <div>Buy ></div>
+              <div>Learn more ></div>
             </div>
           </div>
         </div>
-        <div className="gray">
-          <div className="iPadLanding">
-            <div className="iPhoneX">iPad</div>
-            <div className="sayHello">
-              Like a computer. Unlike any computer.
-            </div>
-            <div className="pencil">
-              <img
-                src="https://www.apple.com/v/home/dq/images/heroes/ipad/ipad_largetall.jpg"
-                alt="Apple Logo"
-                height="455"
-                width="1068"
-                align="middle"
-              />
-            </div>
-          </div>
-        </div>
+        <div className="container2" />
+        <div className="container3" />
+        <div className="container4" />
         <div className="wrapper">
-          <div className="boxOne">
-          <div>
-            iOS 12 
-          </div>
-          <div className='more'>
-            More power to you.
-          </div>
-          </div>
-          <div className="boxTwo">
-            <div />
-          </div>
-          <div className="boxThree">
-            <div />
-          </div>
-          <div className="boxFour">
-            <div />
-          </div>
-          <div className="boxFive">
-            <div />
-          </div>
-          <div className="boxSix">
-            <div />
-          </div>
+          <div className="box1" />
+          <div className="box2" />
+          <div className="box3" />
+          <div className="box4" />
+          <div className="box5" />
+          <div className="box6" />
         </div>
         <div className="footer">
           <div className="footerbox">
