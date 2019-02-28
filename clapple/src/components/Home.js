@@ -1,26 +1,42 @@
 import React, { Component } from "react";
 
 class Home extends Component {
-  constructor() {
-    super();
-  }
   render() {
     return (
       <div>
         <div className="container1">
-          <div className="container1Info">
-            <div className="iPhoneXLeasing">iPhone X<div className = 'R'>R {'\xa0'}</div> from $18.99/mo. or $449.*</div>
-            <div>
+          <div className="containerInfo">
+            <div className="iPhoneXLeasing">
+              iPhone X<div className="R">R{"\xa0"}</div> from $18.99/mo. or
+              $449.*
+            </div>
+            <div className="tradeIn">
               Two great ways to buy. Just trade in your current iPhone online or
               at an Apple Store.*
             </div>
-            <div>
+            <div className="buyLearn">
               <div>Buy ></div>
               <div>Learn more ></div>
             </div>
           </div>
         </div>
-        <div className="container2" />
+        <div className="container2">
+          <div className="containerInfo">
+            <div className="iPhoneXR">
+              <img src='https://www.apple.com/v/home/ea/images/logos/dark-iphone_xr_logo_hero_large.png' alt='iPhone XR'/>
+            </div>
+            <div className="iPhoneXRInfo">
+            All-screen design. Longest battery life ever in an iPhone. Fastest performance. Studio-quality photos.
+            </div>
+            <div className="buyLearn">
+              <div>Learn more ></div>
+              <div>Buy ></div>
+            </div>
+          </div>
+          <div clasName = 'XRImage'>
+          <img src='https://www.apple.com/v/home/ea/images/heroes/spring-iphone-xr/iphone_xr_largetall.jpg' alt='iPhone XRs'/>
+          </div>
+        </div>
         <div className="container3" />
         <div className="container4" />
         <div className="wrapper">
