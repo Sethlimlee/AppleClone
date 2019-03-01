@@ -11,9 +11,9 @@
   height: 44px;
   width: 100%;
   padding: 0 22px;
-  background-color: black;
+  background-color: rgba(45,45,45,0.98);
   position: fixed;
-  opacity: 0.80;
+  opacity: 0.95s;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,7 +98,7 @@
   margin-bottom: 12px;
 }
 
-.iPhoneXRInfo {
+.iPhoneInfo {
   width: 600px;
   font-size: 23px;
   font-weight: 400;
@@ -108,16 +108,54 @@
 .container3 {
   height: 700px;
   width: 100%;
+  padding-top: 55px;
   box-sizing: border-box;
-  background-color: #fafafa
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
 }
 
 .container4 {
   height: 700px;
   width: 100%;
+  padding-top: 55px;
   box-sizing: border-box;
-  background-color: #fafafa
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
 }
+
+.macBookAir {
+  font-size: 56px;
+  font-weight: 500;
+}
+
+.macBookInfo {
+  width: 600px;
+  font-size: 26px;
+  font-weight: 400;
+  padding: 0px 0 20px 0;
+}
+
+.macbookAir {
+  width: 600px;
+  font-size: 56px;
+  font-weight: 400;
+  padding: 10px 0 20px 0;
+}
+
+
+
+
+
+
+
 
 .wrapper {
   display: flex;

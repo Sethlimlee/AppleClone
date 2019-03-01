@@ -23,22 +23,72 @@ class Home extends Component {
         <div className="container2">
           <div className="containerInfo">
             <div className="iPhoneXR">
-              <img src='https://www.apple.com/v/home/ea/images/logos/dark-iphone_xr_logo_hero_large.png' alt='iPhone XR'/>
+              <img
+                src="https://www.apple.com/v/home/ea/images/logos/dark-iphone_xr_logo_hero_large.png"
+                alt="iPhone XR"
+              />
             </div>
-            <div className="iPhoneXRInfo">
-            All-screen design. Longest battery life ever in an iPhone. Fastest performance. Studio-quality photos.
+            <div className="iPhoneInfo">
+              All-screen design. Longest battery life ever in an iPhone. Fastest
+              performance. Studio-quality photos.
             </div>
             <div className="buyLearn">
               <div>Learn more ></div>
               <div>Buy ></div>
             </div>
           </div>
-          <div clasName = 'XRImage'>
-          <img src='https://www.apple.com/v/home/ea/images/heroes/spring-iphone-xr/iphone_xr_largetall.jpg' alt='iPhone XRs'/>
+          <div className="XRImage">
+            <img
+              src="https://www.apple.com/v/home/ea/images/heroes/spring-iphone-xr/iphone_xr_largetall.jpg"
+              alt="iPhone XRs"
+            />
           </div>
         </div>
-        <div className="container3" />
-        <div className="container4" />
+        <div className="container3">
+          <div className="containerInfo">
+            <div className="iPhoneXs">
+              <img
+                src="https://www.apple.com/v/home/ea/images/logos/dark-iphone_xs_logo_hero_large.png"
+                alt="iPhone Xs"
+              />
+            </div>
+            <div className="iPhoneInfo">
+              Largest Super Retina display. Fastest performance with A12 Bionic.
+              Most secure facial authentication with Face ID. Breakthrough dual
+              cameras with Depth Control.
+            </div>
+            <div className="buyLearn">
+              <div>Learn more ></div>
+              <div>Buy ></div>
+            </div>
+          </div>
+          <div className="XsImage">
+            <img
+              src="https://www.apple.com/v/home/ea/images/heroes/spring-iphone-xs/iphone_xs_largetall.jpg"
+              alt="iPhone Xss"
+            />
+          </div>
+        </div>
+        <div className="container4">
+          <div className="containerInfo">
+            <div className="macBookAir">
+              MacBook Air
+            </div>
+            <div className="macBookInfo">
+              Lightness strikes again.
+            </div>
+            <div className="buyLearn">
+              <div>Learn more ></div>
+              <div>Buy ></div>
+            </div>
+          </div>
+          <div className="macBookAirImage">
+            <img
+              src="https://www.apple.com/v/home/ea/images/heroes/macbook-air/macbook_air_largetall.jpg"
+              alt="MacBook Air"
+            />
+          </div>
+        </div>
         <div className="wrapper">
           <div className="box1" />
           <div className="box2" />
