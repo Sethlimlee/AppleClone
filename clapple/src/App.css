@@ -382,29 +382,33 @@
 }
 
 .africa {
-  font-size: 12px;
+  font-size: 13px;
   color: #8D8D8D;
   display: flex;
   flex-direction: column;
   text-align: left;
   padding-bottom: 20px;
   border-bottom: 1px solid #d6d6d6;
+  font-weight: 400;
 }
 
 .footerLinks {
   display: flex;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .footerLinkButtons {
-  font-size: 12px;
+  font-size: 13px;
   display: flex;
+  color: #8D8D8D;
   flex-direction: column;
   text-align: left;
-  color: #747474;
   margin-right: 100px;
+  font-weight: 400;
+  line-height: 1;
 }
 
 .bold {
-  color: black;
+  color: #555555;;
+  font-weight: 600;
 }

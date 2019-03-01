@@ -192,13 +192,11 @@ class Home extends Component {
           <div className="footerbox">
             <div className="africa">
               <div>
-                A portion of the proceeds from every (PRODUCT)RED™ purchase will
-                go to the Global Fund to fight AIDS in Africa.
+              * iPhone X<font size='1'>R</font> pricing is after trade‑in of iPhone 7 Plus in good condition. Monthly pricing requires a 24‑month installment loan with a 0% APR, and iPhone activation. Applicable sales tax and fees due at time of purchase. Last payment may be less depending on remaining balance. Additional trade‑in values require purchase of a new iPhone, subject to availability and limits. You must be at least 18 years old. In‑store trade‑in requires presentation of a valid, government‑issued photo ID (local law may require saving this information). Additional terms from Apple or Apple’s trade‑in partners may apply. <font color='#555555'>Full terms apply.</font>
               </div>
               <br />
               <div>
-                The Greatest Showman is available on iTunes. The Greatest
-                Showman © 2018 FOX. All rights reserved.
+              1. New subscribers only. Plan automatically renews after trial.
               </div>
             </div>
             <div className="footerLinks">
