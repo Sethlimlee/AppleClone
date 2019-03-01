@@ -300,7 +300,8 @@
   box-sizing: border-box;
   height: 590px;
   width: 50%;
-  background-color: #fafafa;
+  background-image: url("https://www.apple.com/v/home/ea/images/promos/apple-music/apple_music_large.jpg");
+  background-position: center;
   border: 6px solid white;
   border-left-width: 12px;
   display:flex;
@@ -312,18 +313,60 @@
   padding-top: 40px;
 }
 
+.musicInfo {
+  width: 350px;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+
+.tryLearn {
+  width: 250px;
+  font-size: 17px;
+  font-weight: 400;
+  color: white;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.one {
+  font-size: 10px;
+}
+
+.music {
+  padding-top: 340px;
+}
+
 .box6 {
   box-sizing: border-box;
   height: 590px;
   width: 50%;
-  background-image: url("https://www.apple.com/v/home/ea/images/promos/iphone-contest-winners/contest_winners_large.jpg");
-  background-position: center;
+  background-color: #fafafa;
   border: 6px solid white;
   border-right-width: 12px;
   display:flex;
-  font-size: 100px;
-  justify-content: center;
-  align-items: flex-start;
+  flex-direction: column;
+  font-size: 40px;
+  font-weight: 600;
+  justify-content: top;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.airPodPic {
+  padding-top: 5px;
+}
+
+.airPod {
+  padding-top: 10px;
+  font-weight: 500;
+}
+
+.airPodInfo {
+  width: 600px;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .footer {

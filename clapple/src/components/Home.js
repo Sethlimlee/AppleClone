@@ -136,7 +136,7 @@ class Home extends Component {
           </div>
           <div className="box4">
             <div className="boxInfo">
-            <div className="todayApple">Today at Apple</div>
+              <div className="todayApple">Today at Apple</div>
               <div className="todayInfo">
                 Free creative sessions with the products you love. In every
                 store. For everyone.
@@ -146,8 +146,47 @@ class Home extends Component {
               </div>
             </div>
           </div>
-          <div className="box5" />
-          <div className="box6" />
+          <div className="box5">
+            <div className="boxInfo">
+              <div className="appleMusic">
+                <img
+                  src="https://www.apple.com/v/home/ea/images/logos/music_47492_large.png"
+                  alt="Watch"
+                />
+              </div>
+              <div className="musicInfo">
+                Lose yourself in 50 million songs.
+              </div>
+              <div className="tryLearn">
+                <div>
+                  Try it free<sup className='one'>1</sup> 🡕
+                </div>
+                <div>Learn more ></div>
+              </div>
+            </div>
+            <div className="music">
+              <img
+                src="https://www.apple.com/v/home/ea/images/promos/apple-music/icon_apple_music_large.png"
+                alt="Apple Music Icon"
+              />
+            </div>
+          </div>
+          <div className="box6">
+          <div className="boxInfo">
+              <div className="airPod">AirPods</div>
+              <div className="airPodInfo">Wireless. Effortless. Magical.</div>
+              <div className="buyLearnBox">
+                <div>Learn more ></div>
+                <div>Buy ></div>
+              </div>
+            </div>
+            <div className="airPodPic">
+              <img
+                src="https://www.apple.com/v/home/ea/images/promos/airpods/airpods_ad44c_large.jpg"
+                alt="AirPods"
+              />
+            </div>
+          </div>
         </div>
         <div className="footer">
           <div className="footerbox">
