@@ -50,8 +50,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
- 
 }
 
 .iPhoneXLeasing {
@@ -128,7 +126,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 12px;
+  margin-bottom: 6px;
 }
 
 .macBookAir {
@@ -150,13 +148,6 @@
   padding: 10px 0 20px 0;
 }
 
-
-
-
-
-
-
-
 .wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -164,11 +155,10 @@
 
 .box1 {
   box-sizing: border-box;
-  height: 580px;
+  height: 590px;
   width: 50%;
-  background-color: limegreen;
+  background-color: #fafafa;
   border: 6px solid white;
-  border-top-width: 12px;
   border-left-width: 12px;
   display:flex;
   flex-direction: column;
@@ -177,77 +167,163 @@
   justify-content: top;
   align-items: center;
   padding-top: 40px;
-  background-image: url("");
-  background-position: center;
+}
+
+.boxInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.watchInfo {
+  width: 600px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.buyLearnBox {
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+  color: #0070c9;  
+  font-size: 17px;
+  font-weight: 400;
+  padding: 10px 0 31px 0;
 }
 
 .box2 {
   box-sizing: border-box;
-  height: 580px;
+  height: 590px;
   width: 50%;
-  background-color: limegreen;
+  background-image: url("https://www.apple.com/v/home/ea/images/promos/iphone-contest-winners/contest_winners_large.jpg");
+  background-position: center;
   border: 6px solid white;
-  border-top-width: 12px;
   border-right-width: 12px;
   display:flex;
   font-size: 100px;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+}
+
+.challenge {
+  width: 350px;
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  padding-top: 50px;
+}
+
+.challengeInfo {
+  width: 350px;
+  font-size: 22px;
+  font-weight: 400;
+  color: white;
+}
+
+.learnWhite {
+  width: 300px;
+  font-size: 17px;
+  font-weight: 400;
+  color: white;
+  padding-top: 15px;
 }
 
 .box3 {
   box-sizing: border-box;
-  height: 580px;
+  height: 590px;
   width: 50%;
-  background-color: limegreen;
+  background-color: #fafafa;
   border: 6px solid white;
   border-left-width: 12px;
   display:flex;
-  font-size: 100px;
-  justify-content: center;
+  flex-direction: column;
+  font-size: 40px;
+  font-weight: 600;
+  justify-content: top;
   align-items: center;
+  padding-top: 40px;
+}
+
+.iPadPro {
+  font-weight: 500;
+}
+
+.iPadInfo {
+  width: 600px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.iPadImage {
+  padding-top: 20px;
 }
 
 .box4 {
   box-sizing: border-box;
-  height: 580px;
+  height: 590px;
   width: 50%;
-  background-color: limegreen;
+  background-image: url("https://www.apple.com/v/home/ea/images/promos/taa/tiles_generic_large.jpg");
+  background-position: center;
   border: 6px solid white;
   border-right-width: 12px;
   display:flex;
   font-size: 100px;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 
+}
+
+.todayApple {
+  width: 600px;
+  font-size: 40px;
+  font-weight: 500;
+  padding-top: 50px;
+}
+
+.todayInfo {
+  width: 450px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.sessionNear{
+  width: 300px;
+  font-size: 17px;
+  font-weight: 400;
+  color: black;
+  padding-top: 15px;
 }
 
 .box5 {
   box-sizing: border-box;
-  height: 580px;
+  height: 590px;
   width: 50%;
-  background-color: limegreen;
+  background-color: #fafafa;
   border: 6px solid white;
-  border-bottom-width: 12px;
   border-left-width: 12px;
   display:flex;
-  font-size: 100px;
-  justify-content: center;
+  flex-direction: column;
+  font-size: 40px;
+  font-weight: 600;
+  justify-content: top;
   align-items: center;
+  padding-top: 40px;
 }
 
 .box6 {
   box-sizing: border-box;
-  height: 580px;
+  height: 590px;
   width: 50%;
-  background-color: limegreen;
+  background-image: url("https://www.apple.com/v/home/ea/images/promos/iphone-contest-winners/contest_winners_large.jpg");
+  background-position: center;
   border: 6px solid white;
-  border-bottom-width: 12px;
   border-right-width: 12px;
   display:flex;
   font-size: 100px;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .footer {

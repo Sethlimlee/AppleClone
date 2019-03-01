@@ -71,12 +71,8 @@ class Home extends Component {
         </div>
         <div className="container4">
           <div className="containerInfo">
-            <div className="macBookAir">
-              MacBook Air
-            </div>
-            <div className="macBookInfo">
-              Lightness strikes again.
-            </div>
+            <div className="macBookAir">MacBook Air</div>
+            <div className="macBookInfo">Lightness strikes again.</div>
             <div className="buyLearn">
               <div>Learn more ></div>
               <div>Buy ></div>
@@ -90,10 +86,66 @@ class Home extends Component {
           </div>
         </div>
         <div className="wrapper">
-          <div className="box1" />
-          <div className="box2" />
-          <div className="box3" />
-          <div className="box4" />
+          <div className="box1">
+            <div className="boxInfo">
+              <div className="appleWatch">
+                <img
+                  src="https://www.apple.com/v/home/ea/images/logos/logo_series_4_large.jpg"
+                  alt="Watch"
+                />
+              </div>
+              <div className="watchInfo">All new. For a better you.</div>
+              <div className="buyLearnBox">
+                <div>Learn more ></div>
+                <div>Buy ></div>
+              </div>
+            </div>
+            <div className="XsImage">
+              <img
+                src="https://www.apple.com/v/home/ea/images/promos/apple-watch-series-4/all_new_large.jpg"
+                alt="Apple Watch"
+              />
+            </div>
+          </div>
+          <div className="box2">
+            <div className="boxInfo">
+              <div className="challenge">Shot on iPhone Challenge winners.</div>
+              <div className="challengeInfo">
+                Check out which photos won the Shot on iPhone Challenge.
+              </div>
+              <div className="learnWhite">
+                <div>Learn more ></div>
+              </div>
+            </div>
+          </div>
+          <div className="box3">
+            <div className="boxInfo">
+              <div className="iPadPro">iPad Pro</div>
+              <div className="iPadInfo">All new. All screen. All powerful.</div>
+              <div className="buyLearnBox">
+                <div>Learn more ></div>
+                <div>Buy ></div>
+              </div>
+            </div>
+            <div className="iPadImage">
+              <img
+                src="https://www.apple.com/v/home/ea/images/promos/ipad-pro/ipad_pro__7b6504bb31_large.jpg"
+                alt="iPad Pro"
+              />
+            </div>
+          </div>
+          <div className="box4">
+            <div className="boxInfo">
+            <div className="todayApple">Today at Apple</div>
+              <div className="todayInfo">
+                Free creative sessions with the products you love. In every
+                store. For everyone.
+              </div>
+              <div className="sessionNear">
+                <div>Find a session near you ></div>
+              </div>
+            </div>
+          </div>
           <div className="box5" />
           <div className="box6" />
         </div>
