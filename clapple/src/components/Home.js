@@ -341,7 +341,7 @@ class Home extends Component {
             <div className="bottomInfo">
             More ways to shop: <font color="#0070c9">Visit an Apple Store</font>, call 1-800-MY-APPLE, or <font color="#0070c9">find a reseller</font>.
             </div>
-            <div className='copyrightBox'>
+            <div className='legalBox'>
             <div className="copyright">
             Copyright © 2019 Apple Inc. All rights reserved.
             </div>
