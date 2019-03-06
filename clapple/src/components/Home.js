@@ -159,7 +159,7 @@ class Home extends Component {
               </div>
               <div className="tryLearn">
                 <div>
-                  Try it free<sup className='one'>1</sup> 🡕
+                  Try it free<sup className="one">1</sup> 🡕
                 </div>
                 <div>Learn more ></div>
               </div>
@@ -172,7 +172,7 @@ class Home extends Component {
             </div>
           </div>
           <div className="box6">
-          <div className="boxInfo">
+            <div className="boxInfo">
               <div className="airPod">AirPods</div>
               <div className="airPodInfo">Wireless. Effortless. Magical.</div>
               <div className="buyLearnBox">
@@ -190,13 +190,24 @@ class Home extends Component {
         </div>
         <div className="footer">
           <div className="footerbox">
-            <div className="africa">
+            <div className="disclaimer">
               <div>
-              * iPhone X<font size='1'>R</font> pricing is after trade‑in of iPhone 7 Plus in good condition. Monthly pricing requires a 24‑month installment loan with a 0% APR, and iPhone activation. Applicable sales tax and fees due at time of purchase. Last payment may be less depending on remaining balance. Additional trade‑in values require purchase of a new iPhone, subject to availability and limits. You must be at least 18 years old. In‑store trade‑in requires presentation of a valid, government‑issued photo ID (local law may require saving this information). Additional terms from Apple or Apple’s trade‑in partners may apply. <font color='#555555'>Full terms apply.</font>
+                * iPhone X<font size="1">R</font> pricing is after trade‑in of
+                iPhone 7 Plus in good condition. Monthly pricing requires a
+                24‑month installment loan with a 0% APR, and iPhone activation.
+                Applicable sales tax and fees due at time of purchase. Last
+                payment may be less depending on remaining balance. Additional
+                trade‑in values require purchase of a new iPhone, subject to
+                availability and limits. You must be at least 18 years old.
+                In‑store trade‑in requires presentation of a valid,
+                government‑issued photo ID (local law may require saving this
+                information). Additional terms from Apple or Apple’s trade‑in
+                partners may apply.{" "}
+                <font color="#555555">Full terms apply.</font>
               </div>
               <br />
               <div>
-              1. New subscribers only. Plan automatically renews after trial.
+                1. New subscribers only. Plan automatically renews after trial.
               </div>
             </div>
             <div className="footerLinks">
@@ -252,8 +263,112 @@ class Home extends Component {
                 <div>Shopping Help</div>
                 <br />
               </div>
+              <div className="footerLinkButtons">
+                <div className="bold">Apple Store</div>
+                <br />
+                <div>Apple and Education</div>
+                <br />
+                <div>Shop for College</div>
+                <br />
+                <br />
+                <div className="bold">For Business</div>
+                <br />
+                <div>Apple and Business</div>
+                <br />
+                <div>Shop for Business</div>
+                <br />
+                <br />
+                <div className="bold">For Healthcare</div>
+                <br />
+                <div>Apple in Healthcare</div>
+                <br />
+                <div>Health on Apple Watch</div>
+                <br />
+                <div>Health Records on iPhone</div>
+                <br />
+                <br />
+              </div>
+              <div className="footerLinkButtons">
+                <div className="bold">Account</div>
+                <br />
+                <div>Manage Your Apple ID</div>
+                <br />
+                <div>Apple Store Account</div>
+                <br />
+                <div>iCloud.com</div>
+                <br />
+                <br />
+                <div className="bold">Apple Values</div>
+                <br />
+                <div>Accessibility</div>
+                <br />
+                <div>Education</div>
+                <br />
+                <div>Environment</div>
+                <br />
+                <div>Inclusion and Diversity</div>
+                <br />
+                <div>Privacy</div>
+                <br />
+                <div>Supplier Responsibility</div>
+                <br />
+              </div>
+              <div className="footerLinkButtons">
+                <div className="bold">For Government</div>
+                <br />
+                <div>Shop for Government</div>
+                <br />
+                <div>Shop for Veterans and Military</div>
+              
+                <br />
+                <br />
+                <div className="bold">About Apple</div>
+                <br />
+                <div>Newsroom</div>
+                <br />
+                <div>Apple Leadership</div>
+                <br />
+                <div>Job Opportunities</div>
+                <br />
+                <div>Investors</div>
+                <br />
+                <div>Events</div>
+                <br />
+                <div>Contact Apple</div>
+                <br />
+              </div>
             </div>
-            <div className="bottomInfo" />
+            <div className="bottomInfo">
+            More ways to shop: <font color="#0070c9">Visit an Apple Store</font>, call 1-800-MY-APPLE, or <font color="#0070c9">find a reseller</font>.
+            </div>
+            <div className='copyrightBox'>
+            <div className="copyright">
+            Copyright © 2019 Apple Inc. All rights reserved.
+            </div>
+            <div className='legal'>
+            <div className="privacy">
+            Privacy Policy
+            </div>
+            <div className="terms">
+            Terms of Use
+            </div>
+            <div className="terms">
+            Sales and Refunds
+            </div>
+            <div className="terms">
+            Legal
+            </div>
+            <div className="map">
+            Site Map
+            </div>
+            </div>
+            <div className="united">
+            <img src="https://www.apple.com/ac/flags/1/images/us/16.png"/>
+            <div className='us'>
+            United States
+            </div>
+            </div>
+            </div>
           </div>
         </div>
       </div>

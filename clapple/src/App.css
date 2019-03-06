@@ -53,6 +53,7 @@
 }
 
 .iPhoneXLeasing {
+  width: 600px;
   display: flex;
   justify-content: center;
   font-size: 32px;
@@ -304,6 +305,7 @@
   background-position: center;
   border: 6px solid white;
   border-left-width: 12px;
+  border-bottom-width: 12px;
   display:flex;
   flex-direction: column;
   font-size: 40px;
@@ -345,6 +347,7 @@
   background-color: #fafafa;
   border: 6px solid white;
   border-right-width: 12px;
+  border-bottom-width: 12px;
   display:flex;
   flex-direction: column;
   font-size: 40px;
@@ -371,17 +374,21 @@
 
 .footer {
   background-color: #F2F2F2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 .footerbox {
-  height: 500px;
+  height: 550px;
   width: 50%;
-  margin: auto;
+  min-width: 900px;
   background-color: #F2F2F2;
   padding-top: 20px;
 }
 
-.africa {
+.disclaimer {
   font-size: 13px;
   color: #8D8D8D;
   display: flex;
@@ -399,11 +406,11 @@
 
 .footerLinkButtons {
   font-size: 13px;
+  width: 200px;
   display: flex;
   color: #8D8D8D;
   flex-direction: column;
   text-align: left;
-  margin-right: 100px;
   font-weight: 400;
   line-height: 1;
 }
@@ -411,4 +418,56 @@
 .bold {
   color: #555555;;
   font-weight: 600;
+}
+
+.bottomInfo {
+  padding-top: 20px;
+  text-align: left;
+  font-size: 13px;
+  color: #8D8D8D;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.copyrightBox {
+  padding-top: 10px;
+  text-align: left;
+  font-size: 12px;
+  color: #8D8D8D;
+  display: flex;
+  justify-content: space-between;
+}
+
+.legal {
+  display: flex;
+}
+
+.privacy {
+  padding-right: 10px;
+  border-right: 1px solid #d6d6d6;
+  color: #555555;  
+}
+
+.terms {
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: 1px solid #d6d6d6;
+  color: #555555;  
+}
+
+.map {
+  margin-right: 110px;
+  padding-left: 10px;
+  color: #555555;  
+}
+
+.united {
+  float: right;
+  color: #555555; 
+  display: flex;
+  align-items: flex-end;
+}
+
+.us {
+  padding-left: 5px;
 }
